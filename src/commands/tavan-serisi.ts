@@ -59,7 +59,7 @@ const TabanSerisi = {
 
     const growthRate = 0.1;
     let currentValue = startValue;
-    let resultMessage = `📉 *Tavan Serisi* (${
+    let resultMessage = `📈 *Tavan Serisi* (${
       selectedStock.shortName
     })\n\n*➜ Başlangış Seviyesi* → ${startValue.toLocaleString("tr-TR")}₺ (${
       selectedStock.time
